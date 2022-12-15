@@ -1,0 +1,51 @@
+<!-- 
+#25 클래스 리스트(classList)
+
+<p class="hello greet good">
+  안녕하세요
+</p>
+
+const p = document.querySelector('p');
+
+//DOMTokenList { 0: 'hello',
+1: 'greet', 2: 'good'}
+
+메소드도 몇개 있어요
+반환된 클래스 콜렉션은 유용한 메소드를 다수 포함하고 있다.
+
+메소드 - add
+기능 - 지정한 클래스 값 추가
+사용 예 - add("new_class")
+
+메소드 - remove
+기능 - 지정한 클래스 값 제거
+사용 예 - remove("old_class")
+
+메소드 - toggle
+기능 - 클래스 값 토글링
+사용 예 - toggle("some_value")
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>자바스크립트 실습해보쟈</title>
+        <style>
+            .text{
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>실험용 텍스트</h1>
+        <button id="add">add</button>
+        <button id="remove">remove</button>
+        <button id="toggle">toggle</button>
+
+        <script src="script.js"></script>
+    </body>
+</html>
+
